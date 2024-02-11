@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "65926c8e502244630b774059"
+  },
+  "bankName": "HELLO",
+  "taskTitle": "SIEM Integration",
+  "taskDescription": " abcd",
+  "taskAddedOn": {
+    "$date": "2024-01-08T18:30:00.000Z"
+  },
+  "taskStartDate": {
+    "$date": "2024-05-08T18:30:00.000Z"
+  },
+  "taskCompletionDate": null,
+  "taskDueDate": null,
+  "taskNote": " Prod",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659286323cbf55eae5cefd2e"
+  },
+  "bankName": "Sample Bank",
+  "taskTitle": "Complete Financial Report",
+  "taskDescription": "Prepare and submit the quarterly financial report",
+  "taskAddedOn": {
+    "$date": "2024-01-01T08:00:00.000Z"
+  },
+  "taskStartDate": {
+    "$date": "2024-01-05T08:00:00.000Z"
+  },
+  "taskCompletionDate": {
+    "$date": "2024-03-01T18:00:00.000Z"
+  },
+  "taskDueDate": {
+    "$date": "2024-02-15T18:00:00.000Z"
+  },
+  "taskNote": "Ensure accuracy and completeness of financial data",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65928a4ed803688df118009f"
+  },
+  "bankName": "UBI",
+  "taskTitle": "server",
+  "taskDescription": "gjgfjgsajf",
+  "taskAddedOn": {
+    "$date": "2024-01-02T18:30:00.000Z"
+  },
+  "taskStartDate": {
+    "$date": "2024-01-10T18:30:00.000Z"
+  },
+  "taskCompletionDate": {
+    "$date": "2024-01-17T18:30:00.000Z"
+  },
+  "taskDueDate": {
+    "$date": "2024-01-24T18:30:00.000Z"
+  },
+  "taskNote": "safddsf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65928a6bd803688df11800a1"
+  },
+  "bankName": "dvs",
+  "taskTitle": "sffsfsd",
+  "taskDescription": "sfsf",
+  "taskAddedOn": {
+    "$date": "2024-01-01T18:30:00.000Z"
+  },
+  "taskStartDate": {
+    "$date": "2024-01-02T18:30:00.000Z"
+  },
+  "taskCompletionDate": {
+    "$date": "2024-01-05T18:30:00.000Z"
+  },
+  "taskDueDate": {
+    "$date": "2024-01-06T18:30:00.000Z"
+  },
+  "taskNote": "sfsf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659291d3d803688df11800ab"
+  },
+  "bankName": "Deeksha",
+  "taskTitle": "afsafdsa",
+  "taskDescription": "adsfsadas",
+  "taskAddedOn": {
+    "$date": "2024-01-01T18:30:00.000Z"
+  },
+  "taskStartDate": {
+    "$date": "2024-01-02T18:30:00.000Z"
+  },
+  "taskCompletionDate": {
+    "$date": "2024-01-05T18:30:00.000Z"
+  },
+  "taskDueDate": {
+    "$date": "2024-01-16T18:30:00.000Z"
+  },
+  "taskNote": "sdfsd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6593be5c8082cb9769455889"
+  },
+  "bankName": "abcd ",
+  "taskTitle": "abcd ",
+  "taskDescription": "ejkjffds",
+  "taskAddedOn": {
+    "$date": "2024-01-08T18:30:00.000Z"
+  },
+  "taskStartDate": {
+    "$date": "2024-01-02T18:30:00.000Z"
+  },
+  "taskCompletionDate": {
+    "$date": "2024-01-04T18:30:00.000Z"
+  },
+  "taskDueDate": {
+    "$date": "2024-01-03T18:30:00.000Z"
+  },
+  "taskNote": "dsfsafsaa",
+  "__v": 0
+}]

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "6592abaabc5ab5cd41cf2163"
+  },
+  "username": "DINESH",
+  "firstName": "Dinesh",
+  "middleName": "Kumar",
+  "lastName": "Jha",
+  "employeeId": "3872",
+  "email": "dineshkj@integramicro.co.in",
+  "mobile": "7978571520",
+  "hierarchy": "Team member",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6593a2675349643e174c672f"
+  },
+  "username": "HELLO",
+  "firstName": "SDASAA",
+  "middleName": "SAA",
+  "lastName": "AASDAD",
+  "employeeId": "7654678765",
+  "email": "abcd@gmail.com",
+  "mobile": "8765567877689",
+  "hierarchy": "Team member",
+  "__v": 0
+}]
