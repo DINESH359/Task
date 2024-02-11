@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "e670ca21-6b3a-4582-9bb5-628da1993a97",
+		"name": "Task_Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18312446"
+	},
+	"item": [
+		{
+			"name": "submit-form",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"bankName\": \"Sample Bank\",\r\n  \"taskTitle\": \"Complete Financial Report\",\r\n  \"taskDescription\": \"Prepare and submit the quarterly financial report\",\r\n  \"taskAddedOn\": \"2024-01-01T08:00:00Z\",\r\n  \"taskStartDate\": \"2024-01-05T08:00:00Z\",\r\n  \"taskCompletionDate\": \"2024-03-01T18:00:00Z\",\r\n  \"taskDueDate\": \"2024-02-15T18:00:00Z\",\r\n  \"taskNote\": \"Ensure accuracy and completeness of financial data\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tasks/submit-form",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks",
+						"submit-form"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"bankName\": \"Sample Bank\",\r\n  \"taskTitle\": \"Complete Financial Report\",\r\n  \"taskDescription\": \"Prepare and submit the quarterly financial report\",\r\n  \"taskAddedOn\": \"2024-01-01T08:00:00Z\",\r\n  \"taskStartDate\": \"2024-01-05T08:00:00Z\",\r\n  \"taskCompletionDate\": \"2024-03-01T18:00:00Z\",\r\n  \"taskDueDate\": \"2024-02-15T18:00:00Z\",\r\n  \"taskNote\": \"Ensure accuracy and completeness of financial data\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tasks/submit-form",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks",
+						"submit-form"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-tasks",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/get-tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"get-tasks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
